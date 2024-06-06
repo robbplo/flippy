@@ -1,0 +1,624 @@
+[gd_scene load_steps=4 format=3 uid="uid://c34fb0g4cx5cx"]
+
+[ext_resource type="Script" path="res://Board.gd" id="1_1qdo8"]
+[ext_resource type="Script" path="res://Square.gd" id="1_qmeye"]
+[ext_resource type="Texture2D" uid="uid://2og84u26s8gf" path="res://sprites/square_white.jpg" id="2_7hjep"]
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+
+[node name="Board" type="Node2D" parent="."]
+position = Vector2(64, 64)
+scale = Vector2(3, 3)
+script = ExtResource("1_1qdo8")
+
+[node name="Square" type="Node2D" parent="Board"]
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square2" type="Node2D" parent="Board"]
+position = Vector2(33, 0)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square2"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square2"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square3" type="Node2D" parent="Board"]
+position = Vector2(66, 0)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square3"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square3"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square4" type="Node2D" parent="Board"]
+position = Vector2(99, 0)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square4"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square4"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square5" type="Node2D" parent="Board"]
+position = Vector2(132, 0)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square5"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square5"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square6" type="Node2D" parent="Board"]
+position = Vector2(165, 0)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square6"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square6"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square7" type="Node2D" parent="Board"]
+position = Vector2(0, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square7"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square7"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square8" type="Node2D" parent="Board"]
+position = Vector2(33, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square8"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square8"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square9" type="Node2D" parent="Board"]
+position = Vector2(66, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square9"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square9"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square10" type="Node2D" parent="Board"]
+position = Vector2(99, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square10"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square10"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square11" type="Node2D" parent="Board"]
+position = Vector2(132, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square11"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square11"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square12" type="Node2D" parent="Board"]
+position = Vector2(165, 33)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square12"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square12"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square13" type="Node2D" parent="Board"]
+position = Vector2(0, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square13"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square13"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square14" type="Node2D" parent="Board"]
+position = Vector2(33, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square14"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square14"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square15" type="Node2D" parent="Board"]
+position = Vector2(66, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square15"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square15"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square16" type="Node2D" parent="Board"]
+position = Vector2(99, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square16"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square16"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square17" type="Node2D" parent="Board"]
+position = Vector2(132, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square17"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square17"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square18" type="Node2D" parent="Board"]
+position = Vector2(165, 66)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square18"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square18"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square19" type="Node2D" parent="Board"]
+position = Vector2(0, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square19"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square19"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square20" type="Node2D" parent="Board"]
+position = Vector2(33, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square20"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square20"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square21" type="Node2D" parent="Board"]
+position = Vector2(66, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square21"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square21"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square22" type="Node2D" parent="Board"]
+position = Vector2(99, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square22"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square22"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square23" type="Node2D" parent="Board"]
+position = Vector2(132, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square23"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square23"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square24" type="Node2D" parent="Board"]
+position = Vector2(165, 99)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square24"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square24"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square25" type="Node2D" parent="Board"]
+position = Vector2(0, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square25"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square25"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square26" type="Node2D" parent="Board"]
+position = Vector2(33, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square26"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square26"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square27" type="Node2D" parent="Board"]
+position = Vector2(66, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square27"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square27"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square28" type="Node2D" parent="Board"]
+position = Vector2(99, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square28"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square28"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square29" type="Node2D" parent="Board"]
+position = Vector2(132, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square29"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square29"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square30" type="Node2D" parent="Board"]
+position = Vector2(165, 132)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square30"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square30"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square31" type="Node2D" parent="Board"]
+position = Vector2(0, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square31"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square31"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square32" type="Node2D" parent="Board"]
+position = Vector2(33, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square32"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square32"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square33" type="Node2D" parent="Board"]
+position = Vector2(66, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square33"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square33"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square34" type="Node2D" parent="Board"]
+position = Vector2(99, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square34"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square34"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square35" type="Node2D" parent="Board"]
+position = Vector2(132, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square35"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square35"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Square36" type="Node2D" parent="Board"]
+position = Vector2(165, 165)
+script = ExtResource("1_qmeye")
+
+[node name="Sprite2D" type="Sprite2D" parent="Board/Square36"]
+texture = ExtResource("2_7hjep")
+
+[node name="Control" type="Control" parent="Board/Square36"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="gui_input" from="Board/Square/Control" to="Board/Square" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square2/Control" to="Board/Square2" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square3/Control" to="Board/Square3" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square4/Control" to="Board/Square4" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square5/Control" to="Board/Square5" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square6/Control" to="Board/Square6" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square7/Control" to="Board/Square7" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square8/Control" to="Board/Square8" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square9/Control" to="Board/Square9" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square10/Control" to="Board/Square10" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square11/Control" to="Board/Square11" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square12/Control" to="Board/Square12" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square13/Control" to="Board/Square13" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square14/Control" to="Board/Square14" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square15/Control" to="Board/Square15" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square16/Control" to="Board/Square16" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square17/Control" to="Board/Square17" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square18/Control" to="Board/Square18" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square19/Control" to="Board/Square19" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square20/Control" to="Board/Square20" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square21/Control" to="Board/Square21" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square22/Control" to="Board/Square22" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square23/Control" to="Board/Square23" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square24/Control" to="Board/Square24" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square25/Control" to="Board/Square25" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square26/Control" to="Board/Square26" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square27/Control" to="Board/Square27" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square28/Control" to="Board/Square28" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square29/Control" to="Board/Square29" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square30/Control" to="Board/Square30" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square31/Control" to="Board/Square31" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square32/Control" to="Board/Square32" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square33/Control" to="Board/Square33" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square34/Control" to="Board/Square34" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square35/Control" to="Board/Square35" method="_on_control_gui_input"]
+[connection signal="gui_input" from="Board/Square36/Control" to="Board/Square36" method="_on_control_gui_input"]
